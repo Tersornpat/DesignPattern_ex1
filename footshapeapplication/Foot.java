@@ -2,9 +2,12 @@ import java.util.Scanner;
 
 public class Foot {
     public static void main(String[] args) {
-        Scanner inp = new Scanner(System.in);
+        draw();
+    }
+
+    public static void draw() {
         FootShape footShape = new FootShape();
-        System.out.print("What to draw? 1. Ellipse, 2. Rectangle ");
+        Scanner inp = new Scanner(System.in);
         int type = inp.nextInt();
         String foot = new String();
         switch(type) {
