@@ -1,4 +1,3 @@
-public class Ellipse extends Foot {
-    @Override
+public class Ellipse {
     public String draw(){ return "draw ellipse"; }
 }
